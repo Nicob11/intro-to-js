@@ -25,11 +25,16 @@
 
 // 1. Escribe una función que imprima la suma de dos números
 // proporcionados como parámetros
+const suma = (num1, num2) => console.log(num1 + num2);
+suma(2,4);
 
 // 2. Escribe una función que imprima un número aleatorio, de 1
 // hasta el rango proporcionado
-
 // ---
+const aleatorio = (end) => { let numero = Math.floor(Math.random()*end + 1) 
+console.log(numero)};
+
+aleatorio(20);
 
 // Las funciones pueden utilizar la keyword return, que:
 // 1. Les asigna un valor de retorno
@@ -47,6 +52,10 @@
 
 // 1. Retomando la función que genera números aleatorios, haz que retorne
 // el resultado, no que lo imprima en consola
+const alereturn = (end) => { let numero = Math.floor(Math.random()*end + 1) 
+    return numero};
+    
+console.log(alereturn(20));
 
 // IMPORTANTE
 // 1. Debemos tratar de que nuestras funciones solo cumplan un cometido
