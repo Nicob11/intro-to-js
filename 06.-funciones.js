@@ -84,17 +84,24 @@ console.log(alereturn(20));
 
 // 1. Escribe una arrow function que imprima en la consola el parámetro
 // que le proporciones
-
+const print = (word) => console.log(word);
+print('4GeeksAcademy');
 // 2. Escribe una arrow function que sume dos números proporcionados
-
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(33,345));
 // 3. Escribe una arrow function que imprima en la consola la multiplicación
 // de dos números proporcionados
-
+const mult = (num1, num2) => num1 * num2;
+console.log(mult(3030,23));
 // 4. Escribe una arrow function que reste dos números proporcionados
-
+const rest = (num1, num2) => num1 - num2;
+console.log(rest(33,345));
 // 5. Escribe una arrow function que multiplique dos números proporcionados
 
 // 6. Escribe una arrow function que divida dos números proporcionados
-
+const div = (num1, num2) => num1 / num2;
+console.log(div(33,345));
 // 7. Escribe una arrow function que reciba dos números y una operación,
 // ejecute la operación e imprima el resultado en pantalla
+//const oper = (num1, num2, accion) => console.log(num1, accion,num2);
+//console.log(oper(2 + 3));
